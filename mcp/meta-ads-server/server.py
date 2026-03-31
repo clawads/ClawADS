@@ -224,7 +224,7 @@ def meta_update_ad(ad_id: str, **kwargs) -> dict:
 def meta_create_creative(
     name: str,
     page_id: str | None = None,
-    instagram_actor_id: str | None = None,
+    instagram_user_id: str | None = None,
     message: str = "",
     headline: str = "",
     description: str = "",
@@ -237,8 +237,8 @@ def meta_create_creative(
     account_id = get_env("META_AD_ACCOUNT_ID")
     if not page_id:
         page_id = get_env("META_PAGE_ID")
-    if not instagram_actor_id:
-        instagram_actor_id = get_env("META_INSTAGRAM_ACCOUNT_ID", required=False)
+    if not instagram_user_id:
+        instagram_user_id = get_env("META_INSTAGRAM_ACCOUNT_ID", required=False)
 
     link_data = {
         "message": message,
@@ -254,8 +254,8 @@ def meta_create_creative(
         link_data["call_to_action"]["value"] = {"lead_gen_form_id": leadgen_form_id}
 
     object_story_spec = {"page_id": page_id, "link_data": link_data}
-    if instagram_actor_id:
-        object_story_spec["instagram_actor_id"] = instagram_actor_id
+    if instagram_user_id:
+        object_story_spec["instagram_user_id"] = instagram_user_id
 
     data = {
         "name": name,

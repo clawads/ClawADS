@@ -162,7 +162,7 @@ POST /{ad_account_id}/adcreatives
   "name": "Creative - Claude Code Lead Gen - {data}",
   "object_story_spec": {
     "page_id": "{page_id}",
-    "instagram_actor_id": "{instagram_account_id}",
+    "instagram_user_id": "{instagram_account_id}",
     "link_data": {
       "message": "{copy_principal}",
       "name": "{headline}",
