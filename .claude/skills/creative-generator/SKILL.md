@@ -34,9 +34,39 @@ description: Gera copies, headlines e sugestoes de criativos otimizados para anu
 - Suporte real: nao esta sozinho
 - ROI claro: a mensalidade de R$200 se paga no primeiro projeto
 
-**Publico:** Devs e profissionais tech BR que querem usar Claude Code mas acham caro pagar sozinhos, ou que ja usam mas sabem que podem mais
+**Publico:** Profissionais tech BR que sentem que estao ficando pra tras, estagnados ou ameacados pela IA
 
-**Nivel de consciencia:** O lead sabe que IA e importante, tem curiosidade pelo Claude Code, mas a barreira de entrada (preco, complexidade) impede. O teste gratis remove essa barreira.
+**Nivel de consciencia:** A pessoa sente a dor (estagnacao, medo, frustacao) mas ainda nao conectou que dominar IA e a solucao. Ou ja conectou mas nao sabe por onde comecar. Nosso trabalho e agitar a dor e mostrar a saida.
+
+## Personas e Dores Especificas
+
+### Persona 1: O Estagnado
+- **Quem:** Dev com 3-8 anos de experiencia, salario parou de crescer
+- **Dor:** Sente que esta no piloto automatico, fazendo a mesma coisa todo dia
+- **Medo:** Ficar obsoleto, nao conseguir evoluir
+- **Desejo:** Sair do plateau, ganhar mais, ser reconhecido
+- **Gatilho:** Ve colegas avancando e se pergunta "o que eles tem que eu nao tenho?"
+
+### Persona 2: O Ameacado
+- **Quem:** Dev junior/pleno que ouve toda semana que "IA vai substituir programadores"
+- **Dor:** Medo real de perder o emprego
+- **Medo:** Ser demitido, nao conseguir recolocacao
+- **Desejo:** Se tornar insubstituivel, usar IA a seu favor
+- **Gatilho:** Noticia de layoffs, colegas usando IA e ele nao
+
+### Persona 3: O Sobrecarregado
+- **Quem:** Dev/freelancer que trabalha 10-12h por dia e mesmo assim nao da conta
+- **Dor:** Exaustao, burnout, nao tem tempo pra familia/vida pessoal
+- **Medo:** Nao aguentar o ritmo, perder clientes por atraso
+- **Desejo:** Trabalhar menos horas mantendo (ou aumentando) a renda
+- **Gatilho:** Fim de semana trabalhando, perder evento importante
+
+### Persona 4: O Ambicioso
+- **Quem:** Dev que quer ganhar mais, empreender, escalar renda
+- **Dor:** Sabe que tem potencial mas nao consegue desbloquear
+- **Medo:** Tempo passando e ele ainda na mesma
+- **Desejo:** Cobrar mais, pegar projetos maiores, ter liberdade financeira
+- **Gatilho:** Ver devs ganhando bem com IA e pensar "por que nao eu?"
 
 ## Processo
 
@@ -44,74 +74,88 @@ description: Gera copies, headlines e sugestoes de criativos otimizados para anu
 
 Apresentar os angulos disponiveis:
 
-#### Angulo 1: Teste Gratis (Barreira Zero)
-Foco em remover o medo e a barreira de entrada
+### REGRA DE OURO: Falar 80% da DOR, 20% do produto.
+
+O anuncio precisa fazer a pessoa sentir que estamos falando DELA. O produto aparece so no final como a saida natural.
+
+#### Angulo 1: MEDO DE SER SUBSTITUIDO (Persona: O Ameacado)
+Apelativo. Mexe com o medo real de perder o emprego.
 ```
-Hook: "Teste o Claude Code mais potente do mundo. De graca."
-Problema: Claude Code custa caro, voce quer experimentar mas nao quer arriscar
-Solucao: Teste gratis com acesso compartilhado + comunidade de suporte
-Prova: Centenas de devs comecaram assim e hoje faturam mais
-CTA: "Quero testar gratis"
+Hook: "Programadores estao sendo demitidos. Mas nao os que sabem isso."
+Problema: IA esta substituindo devs que fazem trabalho manual/repetitivo
+Agitacao: Toda semana tem layoff. Toda semana tem dev sendo substituido por automacao. E voce? Ta seguro?
+Solucao: Quem DOMINA IA nao e substituido — e promovido. Aprenda a usar a IA a seu favor.
+CTA: "Quero me proteger — testar gratis"
 ```
 
-#### Angulo 2: Resultado Financeiro
-Foco em ganhar mais dinheiro usando Claude Code
+#### Angulo 2: ESTAGNACAO (Persona: O Estagnado)
+Apelativo. Mexe com a frustacao de estar parado.
 ```
-Hook: "Devs que dominam Claude Code estao cobrando 3x mais por projeto"
-Problema: Voce sabe que IA pode te dar mais dinheiro, mas nao sabe como
-Solucao: Comunidade + Claude Code compartilhado por R$200/mes (teste gratis pra comecar)
-Prova: Membros que aumentaram renda nos primeiros 30 dias
-CTA: "Comece gratis agora"
-```
-
-#### Angulo 3: Tempo / Produtividade
-Foco em recuperar horas do dia
-```
-Hook: "4 horas de trabalho em 10 minutos. Teste gratis."
-Problema: Tarefas repetitivas consomem seu dia inteiro
-Solucao: Claude Code compartilhado + workflows prontos da comunidade
-Prova: Membros que reduziram tempo de trabalho pela metade
-CTA: "Testar gratis"
+Hook: "3 anos no mesmo cargo. Mesmo salario. Mesmas tarefas. Ate quando?"
+Problema: Voce sabe que e bom, mas ta preso no mesmo lugar
+Agitacao: Seus colegas estao avancando. Ganhando mais. Sendo reconhecidos. E voce? Fazendo a mesma coisa esperando resultado diferente.
+Solucao: O que separa quem cresce de quem estagna e UMA habilidade: saber usar IA pra entregar 10x mais.
+CTA: "Quero sair da estagnacao — comecar gratis"
 ```
 
-#### Angulo 4: Acessibilidade / Preco
-Foco em que o Claude Code potente nao precisa custar caro
+#### Angulo 3: BURNOUT / TEMPO (Persona: O Sobrecarregado)
+Apelativo. Mexe com a exaustao.
 ```
-Hook: "Claude Code Opus por R$200/mes ao inves de US$200. E o teste e gratis."
-Problema: O melhor modelo de IA custa US$200/mes (~R$1.000) — proibitivo
-Solucao: Acesso compartilhado por R$200/mes. Comece com teste gratis.
-Prova: Mesmo modelo, mesma potencia, fracao do preco
-CTA: "Quero testar gratis"
-```
-
-#### Angulo 5: Comunidade / Pertencimento
-Foco em nao estar sozinho nessa jornada
-```
-Hook: "Os melhores devs do Brasil estao nessa comunidade. Falta voce."
-Problema: Aprender IA sozinho e lento e frustrante
-Solucao: Grupo de devs compartilhando prompts, workflows e oportunidades
-Prova: Networking, parcerias, projetos colaborativos
-CTA: "Entrar gratis"
+Hook: "Voce trabalha 12 horas por dia e AINDA acha que nao faz o suficiente?"
+Problema: Pilha de tarefas que nunca acaba. Fim de semana trabalhando. Cansaco que nao passa.
+Agitacao: Enquanto voce leva 4 horas num bug, tem dev resolvendo em 10 minutos com IA. Nao porque ele e melhor — porque ele sabe usar a ferramenta certa.
+Solucao: Aprenda a delegar o trabalho pesado pra IA. Recupere suas noites e seus fins de semana.
+CTA: "Quero minha vida de volta — testar gratis"
 ```
 
-#### Angulo 6: FOMO / Mercado
-Foco na transformacao do mercado
+#### Angulo 4: DINHEIRO / AMBICAO (Persona: O Ambicioso)
+Apelativo. Mexe com o desejo de ganhar mais.
 ```
-Hook: "Em 2026 quem nao domina IA nao compete. Teste gratis e veja."
-Problema: O mercado esta dividindo entre quem usa IA e quem fica pra tras
-Solucao: Comece hoje mesmo — teste gratis, sem compromisso
-Prova: Vagas pedindo experiencia com IA explodiram
-CTA: "Testar gratis agora"
+Hook: "Tem dev brasileiro cobrando R$300/hora usando IA. E voce ainda cobra R$50."
+Problema: Voce sabe que tem potencial pra ganhar mais. Mas nao sabe como desbloquear.
+Agitacao: O mercado ta pagando 3x mais pra quem domina IA. Mas voce ta ali, na mesma faixa salarial, enquanto o tempo passa.
+Solucao: Entra na comunidade, aprende a usar Claude Code de verdade, e comeca a cobrar o que voce realmente vale.
+CTA: "Quero ganhar mais — comecar gratis"
 ```
 
-#### Angulo 7: Curiosidade / Descoberta
-Foco em despertar curiosidade sobre o que e possivel
+#### Angulo 5: FICAR PRA TRAS (FOMO Agressivo)
+Apelativo. Urgencia maxima.
 ```
-Hook: "Voce sabia que o Claude Code consegue criar um app inteiro sozinho?"
-Problema: A maioria nao faz ideia do que IA de codigo realmente pode fazer
-Solucao: Teste gratis e descubra por conta propria
-Prova: Demonstracao real do que e possivel
-CTA: "Quero ver com meus proprios olhos"
+Hook: "Daqui a 1 ano, metade dos devs que nao usam IA vao estar fora do mercado."
+Problema: Nao e previsao. E matematica. IA esta acelerando tudo.
+Agitacao: Empresas ja estao cortando equipes inteiras e substituindo por 2 devs + IA. Se voce nao domina isso, voce e o proximo da lista.
+Solucao: Voce tem duas opcoes: aprender agora ou se arrepender depois. A gente te ensina do zero. Gratis pra comecar.
+CTA: "Nao vou ficar pra tras — quero comecar agora"
+```
+
+#### Angulo 6: IMPOTENCIA / FRUSTACAO
+Apelativo. Mexe com a sensacao de "eu deveria saber isso".
+```
+Hook: "Voce ve todo mundo falando de IA e sente que ta ficando burro?"
+Problema: Toda semana tem ferramenta nova. Todo mundo postando resultado absurdo. E voce ali, sem entender como.
+Agitacao: Nao e que voce e burro. E que ninguem te ensinou DIREITO. Voce fica perdido entre tutoriais de YouTube que nunca funcionam na pratica.
+Solucao: Para de aprender sozinho. Entra numa comunidade de devs que FAZEM, nao que teorizam. Teste gratis.
+CTA: "Chega de me sentir perdido — quero comecar"
+```
+
+#### Angulo 7: PROVA SOCIAL / TRANSFORMACAO
+Storytelling de resultado.
+```
+Hook: "Ele era dev junior ganhando R$3k. 4 meses depois, fechou um projeto de R$15k."
+Problema: Todo dev tem um momento que pensa "sera que vou ficar assim pra sempre?"
+Historia: Ele achou que precisava de mais curso. Mais certificacao. Mais tempo. Ate que descobriu que precisava de UMA coisa: saber usar IA de verdade. Nao tutorial de YouTube. Pratica real, com gente que ja faz.
+Solucao: A mesma comunidade que transformou a carreira dele esta aberta. Teste gratis.
+CTA: "Quero essa transformacao — entrar gratis"
+```
+
+#### Angulo 8: COMPARACAO BRUTAL
+Mostra o contraste sem filtro.
+```
+Hook: "2 devs. Mesma faculdade. Um ganha R$4k, outro R$20k. A diferenca? IA."
+Problema: Nao e talento. Nao e sorte. E saber usar a ferramenta que multiplica tudo.
+Agitacao: Um deles aprendeu a usar IA pra codar, automatizar, entregar 5x mais. O outro continua digitando tudo na mao. Qual deles e voce?
+Solucao: Se voce quer ser o que ganha mais, comeca aqui. Gratis.
+CTA: "Quero ser o que ganha mais — testar gratis"
 ```
 
 ### Passo 2: Gerar Copies
@@ -172,18 +216,20 @@ Slide 4 (CTA): {chamada para acao - max 40 chars} + Swipe Up
 
 Gerar 10 opcoes de headlines seguindo formulas comprovadas:
 
-1. **Numero + Beneficio:** "5 formas de ganhar dinheiro com Claude Code que ninguem te ensinou"
-2. **Como + Resultado:** "Como membros da comunidade faturam 3x mais com IA"
-3. **Pergunta:** "Voce usa Claude Code todo dia mas sente que podia mais?"
-4. **Segredo/Hack:** "O que os top devs BR fazem com Claude Code que voce nao faz"
-5. **Comparacao:** "Dev sozinho vs Dev na comunidade — a diferenca e brutal"
-6. **Urgencia:** "O mercado de IA esta dividindo: de que lado voce vai ficar?"
-7. **Social Proof:** "Centenas de devs ja estao transformando carreira com isso"
-8. **Desafio:** "Me da 7 dias e eu te mostro o que Claude Code realmente pode fazer"
-9. **Dor direta:** "Voce esta deixando dinheiro na mesa todo dia usando Claude Code errado"
-10. **Resultado:** "De dev comum a dev que cobra 3x mais: o caminho passa por aqui"
-11. **ROI:** "A mensalidade se paga no primeiro projeto"
-12. **Tempo:** "4 horas de trabalho em 10 minutos. Isso e possivel."
+**Headlines focadas na DOR (nao no produto):**
+
+1. **Medo:** "Programadores estao sendo demitidos. Voce esta preparado?"
+2. **Estagnacao:** "Mesmo cargo. Mesmo salario. Ate quando?"
+3. **Burnout:** "12 horas por dia e ainda nao da conta?"
+4. **Ambicao:** "Devs usando IA cobram 3x mais. Por que voce nao?"
+5. **FOMO:** "Em 1 ano, metade dos devs que ignoram IA vao se arrepender"
+6. **Frustacao:** "Cansado de ver todo mundo usando IA menos voce?"
+7. **Comparacao:** "2 devs. Mesma experiencia. Salarios opostos. O que mudou?"
+8. **Impotencia:** "Voce sabe que deveria saber usar IA. Mas ninguem te ensinou."
+9. **Tempo:** "Seu colega faz em 10 min o que voce faz em 4h. Ele nao e melhor."
+10. **Provocacao:** "Se IA te assusta, voce ja esta atrasado."
+11. **Realidade:** "Empresas estao cortando equipes. E contratando devs com IA."
+12. **Transformacao:** "De R$3k pra R$15k em 4 meses. A diferenca foi UMA habilidade."
 
 ### Passo 4: Sugestoes Visuais
 
@@ -200,20 +246,26 @@ Para cada criativo, sugerir:
 Recomendar estrutura de teste:
 
 ```
-Teste 1: Angulos diferentes (mesmo formato)
-- Ad A: Angulo Economia
-- Ad B: Angulo Produtividade
-- Ad C: Angulo Hack
+Teste 1: Dores diferentes (mesmo formato)
+- Ad A: Medo de ser substituido (Persona Ameacado)
+- Ad B: Estagnacao de carreira (Persona Estagnado)
+- Ad C: Burnout / falta de tempo (Persona Sobrecarregado)
+- Ad D: Querer ganhar mais (Persona Ambicioso)
 
-Teste 2: Formato de copy (mesmo angulo)
-- Ad A: Copy curta
-- Ad B: Copy media
-- Ad C: Copy longa
+Teste 2: Nivel de agressividade (mesma dor)
+- Ad A: Tom agressivo/confrontacional ("Ate quando?")
+- Ad B: Tom empatico/acolhedor ("A gente entende...")
+- Ad C: Tom provocativo/desafiador ("Se voce nao faz, outro faz")
 
-Teste 3: Headlines (mesmo angulo e formato)
-- Ad A: Headline pergunta
-- Ad B: Headline numero
-- Ad C: Headline comparacao
+Teste 3: Formato de copy (mesma dor, mesmo tom)
+- Ad A: Copy curta (impacto direto)
+- Ad B: Copy media (problema-agitacao-solucao)
+- Ad C: Copy longa (storytelling com transformacao)
+
+Teste 4: CTA (mesmo angulo)
+- Ad A: "Quero testar gratis"
+- Ad B: "Nao quero ficar pra tras"
+- Ad C: "Quero mudar agora"
 ```
 
 ## Frameworks de Copywriting

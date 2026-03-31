@@ -40,18 +40,20 @@ Meta de ROI: Cada R$1 investido deve retornar R$ {meta_roas}
 
 Nunca rodar apenas 1 criativo. Sempre testar em camadas:
 
-#### Fase 1 — Teste de Angulo (semana 1)
-Criar 3-4 ads com angulos diferentes, MESMO publico:
+#### Fase 1 — Teste de Dor (semana 1)
+Criar 4 ads com DORES diferentes, MESMO publico:
 ```
-Ad A: Angulo Economia ("R$200 ao inves de US$200")
-Ad B: Angulo Produtividade ("3x mais rapido com IA")
-Ad C: Angulo Social Proof ("Milhares de devs ja usam")
-Ad D: Angulo FOMO ("Nao fique para tras")
+Ad A: Medo de demissao ("Programadores estao sendo demitidos")
+Ad B: Estagnacao ("3 anos no mesmo cargo. Ate quando?")
+Ad C: Burnout ("12h por dia e nunca da conta?")
+Ad D: Ambicao ("Tem dev cobrando R$300/hora com IA")
 
 Budget: dividir igualmente
 Duracao: 5-7 dias
 Metrica de decisao: CPL + Taxa de qualificacao
 Vencedor: menor CPQL (nao apenas menor CPL)
+
+REGRA: 80% da copy sobre a DOR. Produto aparece so no final.
 ```
 
 #### Fase 2 — Teste de Formato (semana 2)
@@ -104,24 +106,28 @@ Acao: Gerar variacao do vencedor (mesmo angulo, nova abordagem visual/copy)
 
 ### Camada 1: Publicos de Interesse (Topo de Funil)
 
-Testar publicos separados em ad sets diferentes:
+Testar publicos separados por PERSONA/DOR em ad sets diferentes:
 
 ```
-Ad Set A — Devs IA:
-  Interesses: AI, Machine Learning, ChatGPT, LLM
-  Idade: 22-40
+Ad Set A — O Ameacado (medo de demissao):
+  Interesses: AI, Machine Learning, ChatGPT, Layoffs, Career Development
+  Idade: 20-35 (juniors e plenos mais vulneraveis)
+  Copy: Foco em medo de substituicao
 
-Ad Set B — Devs Ferramentas:
-  Interesses: GitHub, VS Code, Terminal, CLI tools
-  Idade: 22-40
+Ad Set B — O Estagnado (carreira parada):
+  Interesses: Software Development, Career Growth, Tech Salary
+  Idade: 25-40 (quem ja tem experiencia mas parou)
+  Copy: Foco em estagnacao e frustacao
 
-Ad Set C — Devs Linguagem:
-  Interesses: Python, JavaScript, TypeScript, Rust
-  Idade: 22-40
+Ad Set C — O Sobrecarregado (burnout):
+  Interesses: Productivity, Freelancing, Remote Work, Work-life balance
+  Idade: 25-45 (freelancers e profissionais sobrecarregados)
+  Copy: Foco em tempo e exaustao
 
-Ad Set D — Tech Decision Makers:
-  Interesses: Software Architecture, Cloud, DevOps, CTO
-  Idade: 28-50
+Ad Set D — O Ambicioso (quer ganhar mais):
+  Interesses: Entrepreneurship, Startup, SaaS, Tech Business, Side Projects
+  Idade: 22-40 (quem busca crescimento financeiro)
+  Copy: Foco em dinheiro e oportunidade
 ```
 
 **Regra:** Usar exclusoes entre ad sets para evitar sobreposicao de publico.

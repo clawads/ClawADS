@@ -72,22 +72,23 @@ POST /{page_id}/leadgen_forms
     },
     {
       "type": "CUSTOM",
-      "key": "experience_level",
-      "label": "Qual seu nivel de experiencia com IA?",
+      "key": "biggest_challenge",
+      "label": "Qual seu maior desafio hoje?",
       "options": [
-        {"value": "iniciante", "key": "beginner"},
-        {"value": "intermediario", "key": "intermediate"},
-        {"value": "avancado", "key": "advanced"}
+        {"value": "medo_substituicao", "key": "fear_replacement", "label": "Tenho medo de ser substituido por IA"},
+        {"value": "carreira_estagnada", "key": "stagnant_career", "label": "Minha carreira esta estagnada"},
+        {"value": "trabalho_demais", "key": "burnout", "label": "Trabalho demais e nao tenho tempo"},
+        {"value": "quero_ganhar_mais", "key": "want_more_money", "label": "Quero ganhar mais e nao sei como"}
       ]
     }
   ],
   "context_card": {
-    "title": "Teste Gratis — Claude Code + Comunidade",
+    "title": "Voce nao precisa passar por isso sozinho",
     "content": [
-      "Acesso gratis ao Claude Code mais potente (Opus) compartilhado",
-      "Comunidade ativa de devs BR que usam IA para ganhar mais",
-      "Prompts, workflows e automacoes prontos para usar",
-      "Sem compromisso — teste antes de decidir"
+      "Centenas de devs BR tinham os mesmos desafios que voce",
+      "Eles aprenderam a usar IA a favor deles — e tudo mudou",
+      "Teste gratis: acesso ao Claude Code + comunidade de suporte",
+      "Sem risco, sem compromisso — comece agora"
     ],
     "style": "PARAGRAPH_STYLE"
   },
