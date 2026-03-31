@@ -141,18 +141,45 @@ Manter historico das execucoes do heartbeat para:
 - Comparar performance semana a semana
 - Gerar relatorio semanal consolidado
 
+## Protocolo HEARTBEAT_OK
+
+Quando executado via `/loop` ou schedule, seguir o protocolo padrao:
+
+- Se **todas as metricas estiverem normais** e nao houver alertas, responder apenas: `HEARTBEAT_OK`
+- Se **houver alertas**, apresentar o relatorio completo do Passo 4
+- Se **houver alerta CRITICO**, apresentar relatorio + solicitar acao imediata do usuario
+
+Isso evita poluir o chat com relatorios desnecessarios quando tudo esta ok.
+
 ## Configuracao de Schedule
 
-Para configurar a execucao periodica, recomendar ao usuario:
+Existem 3 formas de ativar o heartbeat:
 
-```bash
-# Usando cron ou scheduler do sistema
-# Exemplo: a cada 6 horas
-0 */6 * * * claude-code --skill heartbeat --auto
-
-# Ou usando o /loop do Claude Code
-/loop 6h /heartbeat
+### Opcao 1: /loop (sessao ativa — recomendado para comecar)
 ```
+/loop 1h /heartbeat
+```
+Roda a cada 1 hora enquanto a sessao estiver ativa. Auto-expira apos 72h.
+
+### Opcao 2: /schedule (cloud — roda mesmo offline)
+Acessar `claude.ai/code/scheduled` e criar uma tarefa com:
+- **Prompt:** "Execute /heartbeat para verificar campanhas Meta Ads"
+- **Frequencia:** A cada 1h, 6h, diario, etc.
+- Roda na nuvem mesmo com a maquina desligada.
+
+### Opcao 3: Cron local
+```bash
+# A cada 6 horas
+0 */6 * * * claude-code --skill heartbeat --auto
+```
+
+## Deteccao de Fadiga Criativa
+
+Alem das anomalias padrao, monitorar fadiga criativa:
+
+- **CTR decay:** Se CTR cair >15% em media movel de 3 dias, sugerir refresh de criativos
+- **Frequencia + CTR:** Se frequencia > 3.0 E CTR caindo, o publico esta saturado
+- **Acao:** Sugerir ao usuario executar `/creative-generator` para novas variacoes
 
 ## Restricoes
 
