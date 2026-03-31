@@ -14,25 +14,28 @@ description: Gera copies, headlines e sugestoes de criativos otimizados para anu
 
 ## Contexto do Produto
 
-**Produto:** Comunidade paga (R$200/mes) com acesso compartilhado ao Claude Code + conteudo e suporte
-**Oferta de entrada:** Teste GRATIS do Claude Code compartilhado + acesso a comunidade
-**Preco:** R$200/mes (plano mensal)
+**Produto:** Comunidade paga com acesso compartilhado ao Claude Code + conteudo e suporte
 **Promessa:** Ganhar resultado financeiro real ou recuperar tempo significativo ao dominar Claude Code
 
-**Funil:**
-1. Lead ve anuncio → preenche formulario (teste gratis)
-2. Recebe acesso ao Claude Code compartilhado + comunidade
-3. Experimenta, ve resultados
-4. Converte para assinante (R$200/mes)
+**Funil (UNICO E OFICIAL — usar em toda comunicacao):**
+1. Lead ve anuncio (foco na DOR) → preenche formulario (teste gratis)
+2. Recebe acesso ao Claude Code compartilhado (degustacao)
+3. Experimenta, ve o potencial
+4. Paga o 1o mes da comunidade (R$200) — barreira baixa
+5. Durante o 1o mes, usa e ve resultados
+6. Agenda reuniao com especialista
+7. Compra o acervo (R$997 ou 6x R$166) — pre-requisito para continuar
+8. Continua na comunidade (R$200/mes recorrente)
 
-**Beneficios:**
-- TESTE GRATIS: experimenta Claude Code sem pagar nada
-- Acesso compartilhado ao Claude Code (modelo mais potente, Opus)
-- Comunidade ativa: troca de experiencias, networking, parcerias
+**O que o ANUNCIO promove:** Apenas o teste gratis (etapa 1). Nao mencionar precos no anuncio.
+
+**Beneficios (usar nas copies, nao como lista de features):**
+- Teste gratis: zero risco pra comecar
+- Acesso ao Claude Code mais potente, compartilhado
+- Comunidade ativa: networking, parcerias, oportunidades
 - Prompts, workflows e automacoes prontos e testados
 - Conteudo pratico: como ganhar dinheiro e tempo com IA
 - Suporte real: nao esta sozinho
-- ROI claro: a mensalidade de R$200 se paga no primeiro projeto
 
 **Publico:** Profissionais tech BR que sentem que estao ficando pra tras, estagnados ou ameacados pela IA
 

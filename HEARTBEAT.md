@@ -1,7 +1,10 @@
 # Heartbeat Checklist — Meta Ads Lead Generation
 
+> Este checklist e usado automaticamente pela skill /heartbeat.
+> Nao execute manualmente — use `/loop 1h /heartbeat` ou `/schedule`.
+
 Leia este checklist a cada execucao. Siga estritamente.
-Se nada precisar de atencao, responda apenas: HEARTBEAT_OK
+Se todas as metricas estiverem normais e nao houver alertas, responda apenas: HEARTBEAT_OK
 
 ## Checklist
 

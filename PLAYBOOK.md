@@ -20,23 +20,23 @@
 
 ### Estrategias planejadas para validacao:
 
-1. **Teste de angulos criativos (Economia vs Produtividade vs Hack vs FOMO)**
+1. **Teste de dores (Medo substituicao vs Estagnacao vs Burnout vs Ambicao)**
    - Status: Aguardando lancamento de campanha
-   - Hipotese: Angulo "Economia" (R$200 vs US$200) tera menor CPL
-   - Metrica de sucesso: CPL + CPQL
+   - Hipotese: Angulo "Medo de substituicao" tera maior CTR; "Ambicao" tera menor CPQL
+   - Metrica de sucesso: CPL + CPQL + taxa de qualificacao
    - Duracao planejada: 7 dias
 
-2. **Segmentacao: Devs IA vs Devs Ferramentas vs Tech Leads**
+2. **Segmentacao por persona: Ameacado vs Estagnado vs Sobrecarregado vs Ambicioso**
    - Status: Aguardando lancamento de campanha
-   - Hipotese: Devs IA terao maior intent e menor CPL
+   - Hipotese: Persona "Ambicioso" tera maior intent e menor CPQL
    - Metrica de sucesso: CPQL + taxa de qualificacao
    - Duracao planejada: 7 dias
 
-3. **Formulario curto (3 campos) vs medio (5 campos)**
+3. **Tom de comunicacao: Agressivo vs Empatico vs Provocativo**
    - Status: Aguardando lancamento
-   - Hipotese: Form medio tera menos leads mas maior taxa de qualificacao
-   - Metrica de sucesso: CPQL
-   - Duracao planejada: 14 dias
+   - Hipotese: Tom agressivo tera maior CTR; empatico tera maior conversao no form
+   - Metrica de sucesso: CTR + taxa de conversao do formulario
+   - Duracao planejada: 7 dias
 
 4. **Feed vs Stories vs Reels**
    - Status: Aguardando lancamento
@@ -62,9 +62,9 @@
 
 ## Proximos Testes Planejados
 
-1. Testar angulos criativos (primeira semana)
-2. Testar segmentacao de publico (primeira semana)
-3. Testar formatos de formulario (segunda semana)
+1. Testar dores/angulos criativos (primeira semana)
+2. Testar segmentacao por persona (primeira semana)
+3. Testar tom de comunicacao (segunda semana)
 4. Testar posicionamentos (segunda semana)
 5. Testar day parting (terceira semana)
 6. Testar bid strategies (quarta semana)

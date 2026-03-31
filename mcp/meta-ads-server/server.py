@@ -1,19 +1,25 @@
 """
-MCP Server para Meta Marketing API v21.0
+MCP Server para Meta Marketing API.
 
 Fornece tools para gerenciar campanhas, ad sets, ads, criativos,
 lead forms e insights via Meta Graph API.
+
+Requisitos: Python 3.10+
 """
 
-import os
+from __future__ import annotations
+
+import base64
 import json
-import urllib.request
-import urllib.parse
+import os
 import urllib.error
+import urllib.parse
+import urllib.request
+from datetime import datetime, timedelta
 from typing import Any
 
-# Meta API config
-META_API_VERSION = "v21.0"
+# Meta API config — versao configuravel via env var
+META_API_VERSION = os.environ.get("META_API_VERSION", "v21.0")
 META_API_BASE = f"https://graph.facebook.com/{META_API_VERSION}"
 
 
@@ -67,6 +73,10 @@ def meta_api_request(
         except json.JSONDecodeError:
             error_msg = error_body
         raise RuntimeError(f"Meta API Error ({e.code}): {error_msg}") from e
+    except urllib.error.URLError as e:
+        raise RuntimeError(
+            f"Erro de conexao com Meta API: {e.reason}. Verifique sua internet."
+        ) from e
 
 
 # --- Campanhas ---
@@ -269,8 +279,6 @@ def meta_upload_image(image_path: str) -> dict:
     account_id = get_env("META_AD_ACCOUNT_ID")
     with open(image_path, "rb") as f:
         image_bytes = f.read()
-    import base64
-
     image_b64 = base64.b64encode(image_bytes).decode("utf-8")
     data = {"bytes": image_b64}
     return meta_api_request(f"{account_id}/adimages", method="POST", data=data)
@@ -435,8 +443,6 @@ def meta_get_daily_breakdown(
     """
     if not object_id:
         object_id = get_env("META_AD_ACCOUNT_ID")
-
-    from datetime import datetime, timedelta
 
     end_date = datetime.now().strftime("%Y-%m-%d")
     start_date = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
@@ -646,7 +652,18 @@ def meta_search_interests(query: str) -> dict:
 
 
 if __name__ == "__main__":
+    import inspect
+
+    tools = [
+        name
+        for name, obj in inspect.getmembers(__import__(__name__))
+        if inspect.isfunction(obj)
+        and name.startswith("meta_")
+        and name != "meta_api_request"
+    ]
     print("Meta Ads MCP Server")
     print(f"API Version: {META_API_VERSION}")
-    print("Tools disponiveis: 36")
-    print("Execute como MCP server para usar as tools no Claude Code.")
+    print(f"Tools disponiveis: {len(tools)}")
+    for tool in sorted(tools):
+        print(f"  - {tool}")
+    print("\nExecute como MCP server para usar as tools no Claude Code.")
