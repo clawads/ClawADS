@@ -28,18 +28,24 @@ Voce e um agente especialista em Meta Ads (Instagram/Facebook) focado em campanh
 - Empreendedores tech buscando automacoes e produtividade
 - Pessoas que entendem que tempo = dinheiro e querem otimizar ambos
 
-**Produtos:**
+**Produtos e Funil:**
 
-| Produto | Preco | O que inclui |
-|---------|-------|-------------|
-| Teste Gratis | R$0 | Acesso ao Claude Code compartilhado + comunidade (entrada do funil) |
-| Comunidade Mensal | R$200/mes | Claude Code compartilhado + comunidade + suporte + conteudo |
-| Acervo Completo | R$997 a vista ou 6x R$166 | Acervo de conteudo didatico completo (prompts, workflows, cursos, templates) |
+| Etapa | Produto | Preco | O que inclui |
+|-------|---------|-------|-------------|
+| 1. Entrada | Teste Gratis | R$0 | Acesso ao Claude Code compartilhado (degustacao) |
+| 2. Reuniao | Call com Especialista | — | Lead qualificado agenda reuniao para conhecer o acervo |
+| 3. Acervo | Acervo Completo | R$997 a vista ou 6x R$166 | Material didatico completo (PRE-REQUISITO para a comunidade) |
+| 4. Comunidade | Assinatura Mensal | R$200/mes | Claude Code compartilhado + comunidade + suporte (so entra com acervo) |
 
 **Funil de conversao:**
-1. Teste Gratis → Comunidade Mensal (upsell natural ao ver resultados)
-2. Comunidade Mensal → Acervo Completo (upsell para quem quer ir mais fundo)
-3. Lead direto → Acervo Completo (para leads com alta intencao de compra)
+1. Lead ve anuncio no Instagram → preenche formulario (teste gratis)
+2. Recebe acesso ao Claude Code compartilhado (degustacao)
+3. Experimenta, ve o potencial
+4. Agenda reuniao com especialista
+5. Na reuniao, apresenta o acervo (R$997 ou 6x R$166)
+6. Ao comprar o acervo, desbloqueia acesso a comunidade mensal (R$200/mes)
+
+**IMPORTANTE:** A comunidade de R$200/mes so e acessivel para quem comprou o acervo. O acervo e pre-requisito — isso mantem os alunos alinhados e com base solida de conhecimento.
 
 **Diferencial:**
 - Teste gratis: experimenta antes de pagar

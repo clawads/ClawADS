@@ -28,10 +28,10 @@ Para criar sua campanha de leads, preciso de algumas informacoes:
 2. Orcamento diario ou total (em BRL)
 3. Data de inicio e fim (ou campanha continua?)
 4. Publico-alvo especifico (ou usar segmentacao padrao para devs BR?)
-5. Qual produto promover?
-   a) Teste Gratis do Claude Code + Comunidade (entrada do funil — recomendado)
-   b) Comunidade Mensal (R$200/mes)
-   c) Acervo Completo (R$997 a vista ou 6x R$166)
+5. Qual etapa do funil promover?
+   a) Teste Gratis do Claude Code (topo de funil — recomendado para volume)
+   b) Agendar Reuniao com Especialista (meio de funil — leads mais qualificados)
+   c) Direto para Acervo Completo R$997 (fundo de funil — alta intencao)
 6. Campos do formulario de lead (padrao: nome, email, telefone)
 ```
 
@@ -97,10 +97,10 @@ POST /{page_id}/leadgen_forms
   },
   "thank_you_page": {
     "title": "Voce esta dentro!",
-    "body": "Em breve voce recebera acesso ao Claude Code compartilhado e a comunidade. Prepare-se para transformar sua produtividade e seus resultados!",
-    "button_text": "Acessar a Comunidade",
+    "body": "Em breve voce recebera acesso ao teste gratis do Claude Code. Experimente, e quando quiser ir mais fundo, nosso especialista vai te mostrar como dominar tudo.",
+    "button_text": "Acessar o Teste Gratis",
     "button_type": "VIEW_WEBSITE",
-    "website_url": "{url_comunidade}"
+    "website_url": "{url_teste_gratis}"
   }
 }
 ```
