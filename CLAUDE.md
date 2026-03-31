@@ -34,6 +34,9 @@ Cria campanhas completas de lead generation seguindo a hierarquia Campaign > Ad 
 ### /creative-generator
 Gera copies, headlines e sugestoes de criativos otimizados para Instagram Feed e Stories, seguindo boas praticas de conversao.
 
+### /budget-optimizer
+Ajuda a definir o orcamento ideal e ajusta diretamente na plataforma via API. Calcula CPL estimado, recomenda distribuicao e faz escalamento controlado.
+
 ### /heartbeat
 Monitoramento periodico automatizado das campanhas ativas. Analisa performance, detecta anomalias e sugere otimizacoes proativamente.
 
@@ -84,4 +87,5 @@ O MCP server `meta-ads-server` fornece acesso direto a Meta Marketing API v21.0 
 2. `/campaign-analyzer` — Analisar campanhas existentes (se houver)
 3. `/lead-gen-creator` — Criar nova campanha de leads
 4. `/creative-generator` — Gerar copies e criativos
-5. `/heartbeat` — Ativar monitoramento continuo
+5. `/budget-optimizer` — Definir e ajustar orcamentos
+6. `/heartbeat` — Ativar monitoramento continuo

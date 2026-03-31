@@ -359,6 +359,65 @@ def meta_get_account_insights(
     )
 
 
+# --- Budget / Orcamento ---
+
+
+def meta_update_daily_budget(object_id: str, daily_budget_brl: float) -> dict:
+    """Atualiza orcamento diario de uma campanha ou ad set.
+
+    Args:
+        object_id: ID da campanha ou ad set
+        daily_budget_brl: Orcamento diario em BRL (ex: 60.00 para R$60/dia)
+
+    O valor e convertido para centavos automaticamente (Meta exige centavos).
+    """
+    budget_centavos = str(int(daily_budget_brl * 100))
+    return meta_api_request(
+        object_id, method="POST", data={"daily_budget": budget_centavos}
+    )
+
+
+def meta_update_lifetime_budget(
+    object_id: str, lifetime_budget_brl: float, end_time: str
+) -> dict:
+    """Atualiza orcamento total (lifetime) de uma campanha ou ad set.
+
+    Args:
+        object_id: ID da campanha ou ad set
+        lifetime_budget_brl: Orcamento total em BRL (ex: 1800.00 para R$1.800)
+        end_time: Data de termino obrigatoria (formato ISO 8601)
+    """
+    budget_centavos = str(int(lifetime_budget_brl * 100))
+    return meta_api_request(
+        object_id,
+        method="POST",
+        data={"lifetime_budget": budget_centavos, "end_time": end_time},
+    )
+
+
+def meta_get_budget_info(object_id: str) -> dict:
+    """Busca informacoes de orcamento de uma campanha ou ad set."""
+    return meta_api_request(
+        object_id,
+        params={
+            "fields": "id,name,daily_budget,lifetime_budget,budget_remaining,spend_cap,bid_strategy,start_time,end_time"
+        },
+    )
+
+
+def meta_get_spend_today(object_id: str | None = None) -> dict:
+    """Busca gasto de hoje para a conta ou objeto especifico."""
+    if not object_id:
+        object_id = get_env("META_AD_ACCOUNT_ID")
+    return meta_api_request(
+        f"{object_id}/insights",
+        params={
+            "fields": "spend,impressions,actions,cost_per_action_type",
+            "date_preset": "today",
+        },
+    )
+
+
 # --- Utilidades ---
 
 
@@ -392,5 +451,5 @@ def meta_search_interests(query: str) -> dict:
 if __name__ == "__main__":
     print("Meta Ads MCP Server")
     print(f"API Version: {META_API_VERSION}")
-    print("Tools disponiveis: 20")
+    print("Tools disponiveis: 26")
     print("Execute como MCP server para usar as tools no Claude Code.")
