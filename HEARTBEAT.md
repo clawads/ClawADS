@@ -35,6 +35,14 @@ Se nada precisar de atencao, responda apenas: HEARTBEAT_OK
 - [ ] Verificar quality_ranking, engagement_rate_ranking, conversion_rate_ranking
 - [ ] Algum ranking "below_average_35"? → ALERTA ALTO
 
-### 7. Relatorio
+### 7. Projecao de Fechamento
+- [ ] Calcular leads acumulados no mes
+- [ ] Projetar leads ate fim do mes no ritmo atual
+- [ ] Se meta definida: comparar projecao vs meta
+- [ ] Se projecao < 80% da meta? → ALERTA: "No ritmo atual, vai fechar com X leads (meta: Y)"
+- [ ] Se projecao > meta? → INFO: "Campanha no ritmo para bater a meta"
+- [ ] Se CPL subindo e projecao em risco? → Sugerir aumento de budget com simulacao
+
+### 8. Relatorio
 - Se houver alertas: apresentar relatorio completo
 - Se nao houver alertas: responder HEARTBEAT_OK

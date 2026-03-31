@@ -418,6 +418,62 @@ def meta_get_spend_today(object_id: str | None = None) -> dict:
     )
 
 
+# --- Forecasting / Projecoes ---
+
+
+def meta_get_daily_breakdown(
+    object_id: str | None = None,
+    days: int = 30,
+) -> dict:
+    """Busca metricas diarias para forecasting de leads.
+
+    Retorna dados dia a dia para calcular tendencias, media movel e projecoes.
+
+    Args:
+        object_id: ID da campanha, ad set ou conta. Se None, usa a conta.
+        days: Numero de dias para buscar (padrao 30).
+    """
+    if not object_id:
+        object_id = get_env("META_AD_ACCOUNT_ID")
+
+    from datetime import datetime, timedelta
+
+    end_date = datetime.now().strftime("%Y-%m-%d")
+    start_date = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+
+    return meta_api_request(
+        f"{object_id}/insights",
+        params={
+            "fields": "spend,impressions,reach,clicks,actions,cost_per_action_type,ctr,cpc,cpm,frequency",
+            "time_range": json.dumps({"since": start_date, "until": end_date}),
+            "time_increment": "1",
+            "level": "campaign",
+        },
+    )
+
+
+def meta_get_reach_estimate(
+    targeting_spec: str,
+    optimization_goal: str = "LEAD_GENERATION",
+) -> dict:
+    """Estima o tamanho do publico para um targeting especifico.
+
+    Util para verificar se a meta de leads e viavel para o tamanho do publico.
+
+    Args:
+        targeting_spec: JSON string com o targeting spec
+        optimization_goal: Objetivo de otimizacao
+    """
+    account_id = get_env("META_AD_ACCOUNT_ID")
+    return meta_api_request(
+        f"{account_id}/reachestimate",
+        params={
+            "targeting_spec": targeting_spec,
+            "optimization_goal": optimization_goal,
+        },
+    )
+
+
 # --- Utilidades ---
 
 
@@ -451,5 +507,5 @@ def meta_search_interests(query: str) -> dict:
 if __name__ == "__main__":
     print("Meta Ads MCP Server")
     print(f"API Version: {META_API_VERSION}")
-    print("Tools disponiveis: 26")
+    print("Tools disponiveis: 28")
     print("Execute como MCP server para usar as tools no Claude Code.")
