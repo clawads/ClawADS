@@ -43,6 +43,13 @@ Se nada precisar de atencao, responda apenas: HEARTBEAT_OK
 - [ ] Se projecao > meta? → INFO: "Campanha no ritmo para bater a meta"
 - [ ] Se CPL subindo e projecao em risco? → Sugerir aumento de budget com simulacao
 
-### 8. Relatorio
+### 8. Auto-Melhoria (a cada 7 execucoes)
+- [ ] Comparar metricas atuais vs BENCHMARKS.md
+- [ ] Se diferenca > 15%: atualizar benchmarks com dados reais
+- [ ] Registrar qualquer aprendizado novo no LEARNINGS.md
+- [ ] Verificar se alguma estrategia em teste no PLAYBOOK.md tem dados suficientes para validar
+- [ ] Comparar projecao anterior vs resultado real: calcular erro e ajustar modelo
+
+### 9. Relatorio
 - Se houver alertas: apresentar relatorio completo
 - Se nao houver alertas: responder HEARTBEAT_OK

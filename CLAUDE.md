@@ -43,6 +43,9 @@ Motor completo de estrategias de otimizacao: teste de criativos A/B/C, segmentac
 ### /heartbeat
 Monitoramento periodico automatizado das campanhas ativas. Analisa performance, detecta anomalias e sugere otimizacoes proativamente.
 
+### /self-improve
+Sistema de auto-melhoria continua. Aprende com resultados reais, atualiza benchmarks, documenta o que funciona e o que nao funciona, e evolui estrategias ao longo do tempo.
+
 ### /onboarding
 Guia interativo para configuracao inicial — solicita e valida credenciais da Meta API diretamente no chat.
 
@@ -76,6 +79,23 @@ O MCP server `meta-ads-server` fornece acesso direto a Meta Marketing API v21.0 
 - Gerenciamento de lead forms
 - Consulta de metricas e relatorios
 
+## Sistema de Aprendizado Continuo
+
+**IMPORTANTE:** Em TODA interacao, leia os seguintes arquivos antes de tomar decisoes:
+
+1. `BENCHMARKS.md` — Metricas reais da conta (substituem benchmarks genericos)
+2. `LEARNINGS.md` — Aprendizados acumulados (o que funcionou e o que nao)
+3. `PLAYBOOK.md` — Estrategias validadas por dados
+
+**Ciclo de auto-melhoria:**
+- Apos cada analise de campanha: registrar aprendizados no LEARNINGS.md
+- A cada 7 dias: atualizar BENCHMARKS.md com dados reais
+- Apos cada teste A/B concluido: atualizar PLAYBOOK.md
+- Semanalmente: auto-avaliacao de precisao das projecoes
+- Ao commitar aprendizados, usar prefixo: `learn: {descricao}`
+
+O agente DEVE evoluir com o tempo. Decisoes tomadas no mes 3 devem ser significativamente melhores que no mes 1, porque sao baseadas em dados reais acumulados, nao em benchmarks genericos.
+
 ## Regras de Seguranca
 
 1. **NUNCA** execute acoes que envolvam gasto (criar campanha, ativar ads) sem confirmacao explicita do usuario
@@ -88,7 +108,9 @@ O MCP server `meta-ads-server` fornece acesso direto a Meta Marketing API v21.0 
 
 1. `/onboarding` — Configurar credenciais
 2. `/campaign-analyzer` — Analisar campanhas existentes (se houver)
-3. `/lead-gen-creator` — Criar nova campanha de leads
-4. `/creative-generator` — Gerar copies e criativos
-5. `/budget-optimizer` — Definir e ajustar orcamentos
-6. `/heartbeat` — Ativar monitoramento continuo
+3. `/strategy-engine` — Definir estrategia com foco em ROI
+4. `/lead-gen-creator` — Criar nova campanha de leads
+5. `/creative-generator` — Gerar copies e criativos
+6. `/budget-optimizer` — Definir orcamentos e projetar leads
+7. `/heartbeat` — Ativar monitoramento continuo
+8. `/self-improve` — Registrar aprendizados e evoluir (automatico)
