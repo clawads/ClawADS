@@ -28,7 +28,10 @@ Para criar sua campanha de leads, preciso de algumas informacoes:
 2. Orcamento diario ou total (em BRL)
 3. Data de inicio e fim (ou campanha continua?)
 4. Publico-alvo especifico (ou usar segmentacao padrao para devs BR?)
-5. Oferta/promessa principal (padrao: "Claude Code por R$200 ao inves de US$200")
+5. Qual produto promover?
+   a) Teste Gratis do Claude Code + Comunidade (entrada do funil — recomendado)
+   b) Comunidade Mensal (R$200/mes)
+   c) Acervo Completo (R$997 a vista ou 6x R$166)
 6. Campos do formulario de lead (padrao: nome, email, telefone)
 ```
 
@@ -79,12 +82,12 @@ POST /{page_id}/leadgen_forms
     }
   ],
   "context_card": {
-    "title": "Claude Code por R$200/mes",
+    "title": "Teste Gratis — Claude Code + Comunidade",
     "content": [
-      "Use o Claude Code com toda a potencia do Claude Opus",
-      "Economize ate 80% comparado ao plano Max de US$200",
-      "Acesso via API com uso ilimitado dentro do seu budget",
-      "Suporte e tutoriais em portugues"
+      "Acesso gratis ao Claude Code mais potente (Opus) compartilhado",
+      "Comunidade ativa de devs BR que usam IA para ganhar mais",
+      "Prompts, workflows e automacoes prontos para usar",
+      "Sem compromisso — teste antes de decidir"
     ],
     "style": "PARAGRAPH_STYLE"
   },
@@ -93,11 +96,11 @@ POST /{page_id}/leadgen_forms
     "link_text": "Politica de Privacidade"
   },
   "thank_you_page": {
-    "title": "Obrigado pelo interesse!",
-    "body": "Em breve voce recebera um email com instrucoes para comecar a usar o Claude Code. Prepare-se para turbinar sua produtividade!",
-    "button_text": "Conhecer o Claude Code",
+    "title": "Voce esta dentro!",
+    "body": "Em breve voce recebera acesso ao Claude Code compartilhado e a comunidade. Prepare-se para transformar sua produtividade e seus resultados!",
+    "button_text": "Acessar a Comunidade",
     "button_type": "VIEW_WEBSITE",
-    "website_url": "https://claude.ai/code"
+    "website_url": "{url_comunidade}"
   }
 }
 ```

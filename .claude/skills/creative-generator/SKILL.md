@@ -14,16 +14,29 @@ description: Gera copies, headlines e sugestoes de criativos otimizados para anu
 
 ## Contexto do Produto
 
-**Produto:** Claude Code via API
-**Promessa:** Pague R$200 ao inves de US$200 — use mais, pague menos
-**Beneficios:**
-- Acesso ao Claude Opus (modelo mais potente)
-- Economia de ate 80% vs plano Max
-- Uso flexivel via API — pague pelo que usar
-- Ferramenta de produtividade para desenvolvedores
-- Assistente de codigo inteligente direto no terminal
+**Produto:** Comunidade paga (R$200/mes) com acesso compartilhado ao Claude Code + conteudo e suporte
+**Oferta de entrada:** Teste GRATIS do Claude Code compartilhado + acesso a comunidade
+**Preco:** R$200/mes (plano mensal)
+**Promessa:** Ganhar resultado financeiro real ou recuperar tempo significativo ao dominar Claude Code
 
-**Publico:** Desenvolvedores e profissionais de tech no Brasil
+**Funil:**
+1. Lead ve anuncio → preenche formulario (teste gratis)
+2. Recebe acesso ao Claude Code compartilhado + comunidade
+3. Experimenta, ve resultados
+4. Converte para assinante (R$200/mes)
+
+**Beneficios:**
+- TESTE GRATIS: experimenta Claude Code sem pagar nada
+- Acesso compartilhado ao Claude Code (modelo mais potente, Opus)
+- Comunidade ativa: troca de experiencias, networking, parcerias
+- Prompts, workflows e automacoes prontos e testados
+- Conteudo pratico: como ganhar dinheiro e tempo com IA
+- Suporte real: nao esta sozinho
+- ROI claro: a mensalidade de R$200 se paga no primeiro projeto
+
+**Publico:** Devs e profissionais tech BR que querem usar Claude Code mas acham caro pagar sozinhos, ou que ja usam mas sabem que podem mais
+
+**Nivel de consciencia:** O lead sabe que IA e importante, tem curiosidade pelo Claude Code, mas a barreira de entrada (preco, complexidade) impede. O teste gratis remove essa barreira.
 
 ## Processo
 
@@ -31,40 +44,74 @@ description: Gera copies, headlines e sugestoes de criativos otimizados para anu
 
 Apresentar os angulos disponiveis:
 
-#### Angulo 1: Economia
-Foco na diferenca de preco — R$200 vs US$200
+#### Angulo 1: Teste Gratis (Barreira Zero)
+Foco em remover o medo e a barreira de entrada
 ```
-Hook: "Voce esta pagando caro demais pelo seu assistente de IA"
-Problema: Plano Max custa US$200/mes (~R$1.000)
-Solucao: Claude Code via API por R$200/mes
-Prova: Mesmo modelo (Opus), mesma qualidade
-```
-
-#### Angulo 2: Produtividade
-Foco em como o Claude Code acelera o trabalho
-```
-Hook: "Desenvolvedores usando Claude Code entregam 3x mais rapido"
-Problema: Tarefas repetitivas consomem horas
-Solucao: Claude Code faz o trabalho pesado por voce
-Prova: Refatoracao, debug, testes — tudo no terminal
+Hook: "Teste o Claude Code mais potente do mundo. De graca."
+Problema: Claude Code custa caro, voce quer experimentar mas nao quer arriscar
+Solucao: Teste gratis com acesso compartilhado + comunidade de suporte
+Prova: Centenas de devs comecaram assim e hoje faturam mais
+CTA: "Quero testar gratis"
 ```
 
-#### Angulo 3: Exclusividade/Hack
-Foco no "segredo" que poucos conhecem
+#### Angulo 2: Resultado Financeiro
+Foco em ganhar mais dinheiro usando Claude Code
 ```
-Hook: "O hack que devs brasileiros estao usando para pagar 5x menos no Claude"
-Problema: Precos em dolar sao proibitivos
-Solucao: Usar via API e pagar em reais
-Prova: Funcionalidade completa por uma fracao do preco
+Hook: "Devs que dominam Claude Code estao cobrando 3x mais por projeto"
+Problema: Voce sabe que IA pode te dar mais dinheiro, mas nao sabe como
+Solucao: Comunidade + Claude Code compartilhado por R$200/mes (teste gratis pra comecar)
+Prova: Membros que aumentaram renda nos primeiros 30 dias
+CTA: "Comece gratis agora"
 ```
 
-#### Angulo 4: FOMO / Tendencia
-Foco em nao ficar para tras
+#### Angulo 3: Tempo / Produtividade
+Foco em recuperar horas do dia
 ```
-Hook: "Enquanto voce ainda coda manual, seus concorrentes usam IA"
-Problema: O mercado esta mudando rapido
-Solucao: Claude Code e o copiloto que voce precisa
-Prova: Milhares de devs ja migraram
+Hook: "4 horas de trabalho em 10 minutos. Teste gratis."
+Problema: Tarefas repetitivas consomem seu dia inteiro
+Solucao: Claude Code compartilhado + workflows prontos da comunidade
+Prova: Membros que reduziram tempo de trabalho pela metade
+CTA: "Testar gratis"
+```
+
+#### Angulo 4: Acessibilidade / Preco
+Foco em que o Claude Code potente nao precisa custar caro
+```
+Hook: "Claude Code Opus por R$200/mes ao inves de US$200. E o teste e gratis."
+Problema: O melhor modelo de IA custa US$200/mes (~R$1.000) — proibitivo
+Solucao: Acesso compartilhado por R$200/mes. Comece com teste gratis.
+Prova: Mesmo modelo, mesma potencia, fracao do preco
+CTA: "Quero testar gratis"
+```
+
+#### Angulo 5: Comunidade / Pertencimento
+Foco em nao estar sozinho nessa jornada
+```
+Hook: "Os melhores devs do Brasil estao nessa comunidade. Falta voce."
+Problema: Aprender IA sozinho e lento e frustrante
+Solucao: Grupo de devs compartilhando prompts, workflows e oportunidades
+Prova: Networking, parcerias, projetos colaborativos
+CTA: "Entrar gratis"
+```
+
+#### Angulo 6: FOMO / Mercado
+Foco na transformacao do mercado
+```
+Hook: "Em 2026 quem nao domina IA nao compete. Teste gratis e veja."
+Problema: O mercado esta dividindo entre quem usa IA e quem fica pra tras
+Solucao: Comece hoje mesmo — teste gratis, sem compromisso
+Prova: Vagas pedindo experiencia com IA explodiram
+CTA: "Testar gratis agora"
+```
+
+#### Angulo 7: Curiosidade / Descoberta
+Foco em despertar curiosidade sobre o que e possivel
+```
+Hook: "Voce sabia que o Claude Code consegue criar um app inteiro sozinho?"
+Problema: A maioria nao faz ideia do que IA de codigo realmente pode fazer
+Solucao: Teste gratis e descubra por conta propria
+Prova: Demonstracao real do que e possivel
+CTA: "Quero ver com meus proprios olhos"
 ```
 
 ### Passo 2: Gerar Copies
@@ -125,16 +172,18 @@ Slide 4 (CTA): {chamada para acao - max 40 chars} + Swipe Up
 
 Gerar 10 opcoes de headlines seguindo formulas comprovadas:
 
-1. **Numero + Beneficio:** "5 motivos para trocar o Max pelo API"
-2. **Como + Resultado:** "Como pagar 5x menos pelo Claude Opus"
-3. **Pergunta:** "Cansado de pagar US$200/mes?"
-4. **Segredo/Hack:** "O segredo que devs usam para economizar no Claude"
-5. **Comparacao:** "R$200 vs US$200 — Mesmo Claude, preco diferente"
-6. **Urgencia:** "Antes que o preco suba: Claude Code por R$200"
-7. **Social Proof:** "Milhares de devs BR ja migraram — e voce?"
-8. **Desafio:** "Teste o Claude Code por 7 dias e comprove"
-9. **Negacao:** "Nao pague US$200 se voce pode pagar R$200"
-10. **Resultado:** "De junior a senior: como o Claude Code transforma seu codigo"
+1. **Numero + Beneficio:** "5 formas de ganhar dinheiro com Claude Code que ninguem te ensinou"
+2. **Como + Resultado:** "Como membros da comunidade faturam 3x mais com IA"
+3. **Pergunta:** "Voce usa Claude Code todo dia mas sente que podia mais?"
+4. **Segredo/Hack:** "O que os top devs BR fazem com Claude Code que voce nao faz"
+5. **Comparacao:** "Dev sozinho vs Dev na comunidade — a diferenca e brutal"
+6. **Urgencia:** "O mercado de IA esta dividindo: de que lado voce vai ficar?"
+7. **Social Proof:** "Centenas de devs ja estao transformando carreira com isso"
+8. **Desafio:** "Me da 7 dias e eu te mostro o que Claude Code realmente pode fazer"
+9. **Dor direta:** "Voce esta deixando dinheiro na mesa todo dia usando Claude Code errado"
+10. **Resultado:** "De dev comum a dev que cobra 3x mais: o caminho passa por aqui"
+11. **ROI:** "A mensalidade se paga no primeiro projeto"
+12. **Tempo:** "4 horas de trabalho em 10 minutos. Isso e possivel."
 
 ### Passo 4: Sugestoes Visuais
 

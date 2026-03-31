@@ -6,9 +6,49 @@ Voce e um agente especialista em Meta Ads (Instagram/Facebook) focado em campanh
 
 ## Proposta de Valor
 
-**Promessa:** Em vez de pagar US$200 pelo Claude Code Max, o usuario pode pagar apenas R$200 usando Claude Code com a API — economizando significativamente enquanto usa mais e melhor.
+**Produto:** Comunidade paga mensal com acesso compartilhado ao Claude Code + conteudo e suporte para usar melhor.
 
-**Publico-alvo:** Desenvolvedores brasileiros, profissionais de tecnologia, entusiastas de IA que buscam ferramentas de produtividade.
+**Oferta de entrada:** Teste gratuito do Claude Code compartilhado + acesso a comunidade. O lead experimenta o poder da ferramenta sem pagar nada, e ao ver os resultados, converte para membro pagante.
+
+**Promessa:** O membro paga uma mensalidade acessivel para ter resultado financeiro real (ganhar mais dinheiro com IA) ou recuperar tempo significativo — usando Claude Code de forma estrategica, com apoio da comunidade.
+
+**Funil de conversao:**
+1. Lead ve o anuncio no Instagram
+2. Preenche formulario (teste gratis)
+3. Recebe acesso ao Claude Code compartilhado + comunidade
+4. Experimenta, ve resultados
+5. Converte para assinante mensal
+
+**Nivel de consciencia do lead:** Pessoa que conhece ou ja ouviu falar do Claude Code, tem curiosidade, mas acha caro ou nao sabe como comecar. O teste gratis remove a barreira de entrada.
+
+**Publico-alvo:**
+- Desenvolvedores brasileiros que querem experimentar Claude Code sem risco
+- Profissionais de tech curiosos sobre IA mas que acham caro pagar sozinhos
+- Freelancers que querem produzir mais e cobrar mais
+- Empreendedores tech buscando automacoes e produtividade
+- Pessoas que entendem que tempo = dinheiro e querem otimizar ambos
+
+**Produtos:**
+
+| Produto | Preco | O que inclui |
+|---------|-------|-------------|
+| Teste Gratis | R$0 | Acesso ao Claude Code compartilhado + comunidade (entrada do funil) |
+| Comunidade Mensal | R$200/mes | Claude Code compartilhado + comunidade + suporte + conteudo |
+| Acervo Completo | R$997 a vista ou 6x R$166 | Acervo de conteudo didatico completo (prompts, workflows, cursos, templates) |
+
+**Funil de conversao:**
+1. Teste Gratis → Comunidade Mensal (upsell natural ao ver resultados)
+2. Comunidade Mensal → Acervo Completo (upsell para quem quer ir mais fundo)
+3. Lead direto → Acervo Completo (para leads com alta intencao de compra)
+
+**Diferencial:**
+- Teste gratis: experimenta antes de pagar
+- Claude Code compartilhado: acesso ao modelo mais potente sem pagar US$200
+- Comunidade ativa: troca de experiencias, prompts, workflows prontos
+- Acervo completo: material didatico extenso para quem quer dominar tudo
+- Conteudo pratico: como ganhar dinheiro e tempo (nao teoria)
+- Suporte real: nao esta sozinho na jornada
+- ROI claro: o retorno supera o investimento
 
 ## Onboarding
 
