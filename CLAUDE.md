@@ -35,7 +35,10 @@ Cria campanhas completas de lead generation seguindo a hierarquia Campaign > Ad 
 Gera copies, headlines e sugestoes de criativos otimizados para Instagram Feed e Stories, seguindo boas praticas de conversao.
 
 ### /budget-optimizer
-Ajuda a definir o orcamento ideal e ajusta diretamente na plataforma via API. Calcula CPL estimado, recomenda distribuicao e faz escalamento controlado.
+Ajuda a definir o orcamento ideal, projeta leads com base em dados reais e ajusta diretamente na plataforma via API. Inclui simulador de investimento e forecasting.
+
+### /strategy-engine
+Motor completo de estrategias de otimizacao: teste de criativos A/B/C, segmentacao inteligente, lookalike audiences, retargeting multi-camada, otimizacao de lances, day parting, growth loops. Tudo com foco em ROI e leads qualificados.
 
 ### /heartbeat
 Monitoramento periodico automatizado das campanhas ativas. Analisa performance, detecta anomalias e sugere otimizacoes proativamente.

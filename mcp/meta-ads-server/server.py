@@ -474,6 +474,147 @@ def meta_get_reach_estimate(
     )
 
 
+# --- Audiences / Publicos ---
+
+
+def meta_list_custom_audiences() -> dict:
+    """Lista custom audiences da conta."""
+    account_id = get_env("META_AD_ACCOUNT_ID")
+    return meta_api_request(
+        f"{account_id}/customaudiences",
+        params={
+            "fields": "id,name,subtype,approximate_count,delivery_status,operation_status,time_created"
+        },
+    )
+
+
+def meta_create_custom_audience(
+    name: str,
+    description: str = "",
+    subtype: str = "CUSTOM",
+    customer_file_source: str = "USER_PROVIDED_ONLY",
+) -> dict:
+    """Cria custom audience para retargeting ou upload de lista."""
+    account_id = get_env("META_AD_ACCOUNT_ID")
+    data = {
+        "name": name,
+        "description": description,
+        "subtype": subtype,
+        "customer_file_source": customer_file_source,
+    }
+    return meta_api_request(
+        f"{account_id}/customaudiences", method="POST", data=data
+    )
+
+
+def meta_create_lookalike_audience(
+    name: str,
+    origin_audience_id: str,
+    ratio: float = 0.01,
+    country: str = "BR",
+) -> dict:
+    """Cria lookalike audience baseada em uma custom audience.
+
+    Args:
+        name: Nome do publico
+        origin_audience_id: ID da custom audience de origem
+        ratio: Tamanho do lookalike (0.01 = 1%, 0.03 = 3%, 0.05 = 5%)
+        country: Pais alvo
+    """
+    account_id = get_env("META_AD_ACCOUNT_ID")
+    data = {
+        "name": name,
+        "subtype": "LOOKALIKE",
+        "origin_audience_id": origin_audience_id,
+        "lookalike_spec": json.dumps(
+            {"country": country, "ratio": ratio, "type": "similarity"}
+        ),
+    }
+    return meta_api_request(
+        f"{account_id}/customaudiences", method="POST", data=data
+    )
+
+
+def meta_get_audience_overlap(
+    audience_id_1: str,
+    audience_id_2: str,
+) -> dict:
+    """Verifica sobreposicao entre dois publicos.
+
+    Util para evitar que ad sets concorram pelo mesmo publico.
+    """
+    return meta_api_request(
+        f"{audience_id_1}",
+        params={
+            "fields": "approximate_count",
+            "audience_overlap": json.dumps(
+                {"target_audience": audience_id_2}
+            ),
+        },
+    )
+
+
+def meta_get_breakdown_insights(
+    object_id: str,
+    breakdown: str = "age,gender",
+    date_preset: str = "last_30d",
+) -> dict:
+    """Busca insights segmentados por dimensao (idade, genero, posicionamento, etc).
+
+    Args:
+        object_id: ID da campanha, ad set ou conta
+        breakdown: Dimensoes para segmentar. Opcoes:
+            - "age,gender" — por idade e genero
+            - "publisher_platform,platform_position" — por posicionamento
+            - "device_platform" — por dispositivo (iOS, Android)
+            - "region" — por regiao
+            - "hourly_stats_aggregated_by_advertiser_time_zone" — por hora do dia
+            - "product_id" — por produto (catalogo)
+        date_preset: Periodo (today, yesterday, last_7d, last_14d, last_30d)
+    """
+    return meta_api_request(
+        f"{object_id}/insights",
+        params={
+            "fields": "spend,impressions,clicks,actions,cost_per_action_type,ctr,cpc",
+            "breakdowns": breakdown,
+            "date_preset": date_preset,
+            "level": "campaign",
+        },
+    )
+
+
+def meta_get_ad_scheduling(adset_id: str) -> dict:
+    """Busca configuracao de agendamento de um ad set."""
+    return meta_api_request(
+        adset_id,
+        params={"fields": "id,name,pacing_type,adset_schedule"},
+    )
+
+
+def meta_update_ad_scheduling(
+    adset_id: str,
+    schedule: str,
+    pacing_type: str = "day_parting",
+) -> dict:
+    """Configura day parting (horarios de exibicao) em um ad set.
+
+    Args:
+        adset_id: ID do ad set
+        schedule: JSON string com horarios. Exemplo:
+            [{"days":[0,1,2,3,4],"start_minute":480,"end_minute":1080}]
+            (seg-sex, 8h-18h)
+        pacing_type: "standard" ou "day_parting"
+    """
+    return meta_api_request(
+        adset_id,
+        method="POST",
+        data={
+            "pacing_type": json.dumps([pacing_type]),
+            "adset_schedule": schedule,
+        },
+    )
+
+
 # --- Utilidades ---
 
 
@@ -507,5 +648,5 @@ def meta_search_interests(query: str) -> dict:
 if __name__ == "__main__":
     print("Meta Ads MCP Server")
     print(f"API Version: {META_API_VERSION}")
-    print("Tools disponiveis: 28")
+    print("Tools disponiveis: 36")
     print("Execute como MCP server para usar as tools no Claude Code.")
