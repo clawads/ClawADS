@@ -33,19 +33,22 @@ Voce e um agente especialista em Meta Ads (Instagram/Facebook) focado em campanh
 | Etapa | Produto | Preco | O que inclui |
 |-------|---------|-------|-------------|
 | 1. Entrada | Teste Gratis | R$0 | Acesso ao Claude Code compartilhado (degustacao) |
-| 2. Reuniao | Call com Especialista | — | Lead qualificado agenda reuniao para conhecer o acervo |
-| 3. Acervo | Acervo Completo | R$997 a vista ou 6x R$166 | Material didatico completo (PRE-REQUISITO para a comunidade) |
-| 4. Comunidade | Assinatura Mensal | R$200/mes | Claude Code compartilhado + comunidade + suporte (so entra com acervo) |
+| 2. Primeiro Mes | Comunidade (1 mes) | R$200 | Primeiro mes da comunidade + Claude Code compartilhado |
+| 3. Reuniao | Call com Especialista | — | Para continuar apos o 1o mes, precisa do acervo |
+| 4. Acervo | Acervo Completo | R$997 a vista ou 6x R$166 | Material didatico completo (OBRIGATORIO para continuar) |
+| 5. Continuidade | Assinatura Mensal | R$200/mes | Comunidade + Claude Code compartilhado (recorrente) |
 
 **Funil de conversao:**
 1. Lead ve anuncio no Instagram → preenche formulario (teste gratis)
 2. Recebe acesso ao Claude Code compartilhado (degustacao)
 3. Experimenta, ve o potencial
-4. Agenda reuniao com especialista
-5. Na reuniao, apresenta o acervo (R$997 ou 6x R$166)
-6. Ao comprar o acervo, desbloqueia acesso a comunidade mensal (R$200/mes)
+4. Paga o primeiro mes da comunidade (R$200) — barreira baixa
+5. Durante o primeiro mes, usa a comunidade e ve os resultados
+6. Para continuar no 2o mes: agenda reuniao com especialista
+7. Na reuniao, apresenta o acervo (R$997 ou 6x R$166)
+8. Ao comprar o acervo, pode continuar na comunidade (R$200/mes recorrente)
 
-**IMPORTANTE:** A comunidade de R$200/mes so e acessivel para quem comprou o acervo. O acervo e pre-requisito — isso mantem os alunos alinhados e com base solida de conhecimento.
+**REGRA:** O primeiro mes de R$200 funciona como trial pago. A pessoa experimenta a comunidade de verdade. Mas para continuar a partir do 2o mes, precisa ter o acervo. Isso garante que todos os alunos ativos tenham a base solida de conhecimento necessaria para aproveitar a comunidade.
 
 **Diferencial:**
 - Teste gratis: experimenta antes de pagar
